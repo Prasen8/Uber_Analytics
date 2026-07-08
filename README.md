@@ -24,18 +24,7 @@ Ride-hailing platforms generate massive volumes of transactional data every day.
 
 **Objective:** Build a single source of truth — an interactive dashboard — that answers these questions at a glance and supports monitoring, trend identification, and decision-making across the business.
 
----
 
-## 📂 Dataset
-
-| Attribute | Details |
-|---|---|
-| **Domain** | Ride-hailing / Mobility |
-| **Granularity** | Individual booking/trip level |
-| **Key Fields** | Booking ID, Date/Time, Customer ID, Vehicle Type, Pickup Location, Drop Location, Booking Status, Distance, Fare/Revenue, Rider Rating, Driver Rating |
-| **Format** | CSV / Excel (raw), transformed via Power Query |
-
-> ⚠️ *Note: Add details here about whether this is a public/sample dataset (e.g., Kaggle "Uber Ride Analytics" dataset) or synthetically generated data, along with a link/source citation and file size/row count.*
 
 ---
 
@@ -112,7 +101,7 @@ Using **Power Query**, the following steps were performed before modeling:
 5. Categorized booking statuses (Completed / Cancelled / Lost) into a consistent taxonomy
 6. Handled outliers in fare and distance fields
 
-> 💡 *Add specific transformation steps you performed here, e.g., "Removed 1,200 duplicate rows," "Handled 3% missing values in Driver Rating by exclusion," etc. — recruiters love specifics.*
+
 
 ---
 ---
@@ -174,28 +163,6 @@ Total_Distance = SUM(Uber[Ride Distance])
 
 ---
 
-## 📁 Project Structure
-
-```
-uber-analytics-dashboard/
-│
-├── data/
-│   └── uber_bookings_raw.csv        # Raw dataset (or link/source if not included)
-│
-├── dashboard/
-│   └── Uber_Analytics_Dashboard.pbix # Power BI dashboard file
-│
-├── images/
-│   └── screenshots/                  # Dashboard screenshots for README
-│
-├── docs/
-│   └── data_dictionary.md            # Field definitions and descriptions
-│
-└── README.md
-```
-
----
-
 ## 🧠 Skills Applied
 
 - Data Cleaning & Transformation
@@ -221,21 +188,12 @@ This project strengthened my understanding of both **data analytics** and **busi
 
 ---
 
-## 🚀 Future Improvements
-
-- [ ] Integrate SQL as the backend data source instead of static files
-- [ ] Add predictive analytics (e.g., demand forecasting) using Python
-- [ ] Build a real-time/near-real-time data refresh pipeline
-- [ ] Add driver-side operational metrics (idle time, utilization rate)
-- [ ] Deploy dashboard to Power BI Service with row-level security
-
----
 
 ## 🤝 Connect With Me
 
 I'm continuously improving my skills in **SQL, Python, Power BI, and Business Analytics** through real-world projects like this one. Feedback and suggestions are always welcome!
 
-- 💼 LinkedIn: 
+- 💼 LinkedIn: https://www.linkedin.com/in/prasen-nimje/
 - 📧 Email: prasennimje100@gmail.com
 
 
